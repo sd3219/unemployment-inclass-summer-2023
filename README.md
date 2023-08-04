@@ -37,6 +37,14 @@ python app/unemployment.py
 python -m app.unemployment
 ```
 
+
+Run the stocks report:
+
+```sh
+python -m app.stocks
+```
+
+
 Run the web_app:
 ```sh
 # Mac OS:
