@@ -1,8 +1,15 @@
+import json
+from pprint import pprint
+from statistics import mean
+import requests
+from plotly.express import line
+from app.alpha import API_KEY
+
 #from getpass import getpass
 #
 #API_KEY = getpass("Please input your AlphaVantage API Key: ")
 
-from app.alpha import API_KEY
+
 
 
 def format_pct(my_number):
