@@ -15,6 +15,8 @@ load_dotenv() #> invoking this function loads contents of the ".env" file into t
 
 API_KEY = os.getenv("ALPHAVANTAGE_API_KEY")
 
+from app.alpha import API_KEY
+
 
 def format_pct(my_number):
     """
